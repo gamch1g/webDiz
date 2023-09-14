@@ -1,0 +1,156 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(132, 132, 132);
+  }
+.container{
+   background-color: lightgray;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 7px;
+    display: block;
+    height: 680px;
+    border: 3px gray solid;
+    border-radius: 5%;
+    -webkit-box-shadow: -19px 5px 36px 3px rgba(107,107,107,1);
+    -moz-box-shadow: -19px 5px 36px 3px rgba(107,107,107,1);
+    box-shadow: -19px 5px 36px 3px rgba(107,107,107,1);
+}
+.first_block{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+.second_block{
+    width: 100%;
+    height: 30%;
+}
+.third_block{
+    width: 100%;
+    height: 30%;
+}
+.block_user_info{
+    width: 30%;
+    height: 100%;
+}
+.user_img{
+    width: 200px;
+    height: 200px;
+    border: 3px gray solid;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.user_name{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.text_under_name{
+    color: gray;
+    font-size: 15px;
+    margin-left: 45px;
+    margin-top: -10px;
+}
+span{
+    color: gray;
+    font-size: 20px;
+}
+.block_user_description{
+    margin-top: -10px;
+    width: 70%;
+    height: 100%;
+}
+.user_description{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 17px;
+    margin-right: 10px;
+    color: gray;
+}
+.second_block{
+    display: flex;
+    justify-content: space-around;
+}
+.hobies_block{
+   width: 200px;
+   height: 200px;
+}
+.networks_block{
+    width: 200px;
+    height: 200px;
+}
+.caption{
+  margin-left: 23%;    
+}
+.second_caption{
+    margin-left: 10px;
+}
+ol{
+    margin-left: 25px;
+    color:gray;
+    font-size: 18px;
+}
+li{
+    margin-top: 5px;
+}
+.network_link{
+    text-decoration: none;
+    color : gray
+
+}
+ul{
+    margin-left: 25px;
+    color:gray;
+    font-size: 18px; 
+}
+.question{
+    color: gray;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    margin-left: 260px; 
+    background-color: gray;
+}.button {
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 260px;
+    background-color: gray; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+    transition: 0.3s;
+}
+.button:active{
+    background-color: rgb(91, 91, 91);
+}
+.text_button {
+    margin: 0; 
+}
+.link_button{
+    text-decoration: none;
+    color: lightgrey; 
+}
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+
+h1{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
