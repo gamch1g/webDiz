@@ -199,14 +199,19 @@ span{
     width: 200px;
     height: 42px;
     background-color: #808080;
-    color: #000000;
     text-align: center;
     line-height: 42px; 
     border-radius: 15px;
     margin-left: 37%;
     margin-top: 30px;
+    cursor: pointer;
 }
-.button:hover{
+.button_text{
+    text-decoration: none;
+    color: #000000;
+}
+.button_text:hover{
+    transition: 0.3s;
     color: #666666;
 }
 .social_networks_block{
