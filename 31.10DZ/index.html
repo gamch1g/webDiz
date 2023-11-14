@@ -3,120 +3,185 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <div class="header">
-        <h1 class = "header_caption">P O R T F O L I O</h1>
-        <div class="nav">
-            <ul>
-                <li class="nav_item">Home</li>
-                <li class="nav_item">About Me</li>
-                <li class="nav_item">My skills</li>
-                <li class="nav_item">My Works</li>
-                <li class="nav_item">Contacts</li>
-            </ul>
+    <div class="container">
+        <div class="header">
+            <div class="header_section">
+                <div class="header_logo">
+                    P o r t f o l i o 
+                </div>
+            </div>
+            <div class="header_section">
+                <div class="nav">
+                    <a href="*" class="nav_item">Home</a>
+                    <a href="#about-me" class="nav_item">About me</a>
+                    <a href="#my-skills" class="nav_item">My skills</a>
+                    <a href="#my-works" class="nav_item">My works</a>
+                    <a href="#contacts" class="nav_item">Contacts</a>
+                </div>
+                <div class="burger_menu"><a href="*" class="burger_link"><img class="burger_img" src="/31.10DZ/img/burgermenu.png" alt=""></a></div>
+            </div>
         </div>
-    </div>    
-    <div class="user_block">
-        <div class="first_half">
-            <img src="/31.10DZ/img/userimg.png" alt="" class="user_png">
-        </div>
-        <div class="second_half">
-            <h2 class="user_name">Maxim Firapontov</h2>
-            <p class="second_user_name">but you can call me Max.</p>
-            <p class="under_name">I am a student of the State University of Economics and Technology. At the moment I study C++, as well as have knowledge of JavaScript (a little higher than the average level), as well as can not bad layout  on ready-made layouts in Figma and myself learning to create them. Examples of my works you can see below. </p>
-        </div>
-    </div>
-    <div class="my_skills">
-        <div class="skills_block">
-            <p class="skills">C++</p> <img src="/31.10DZ/img/star.png" alt=""> <img src="/31.10DZ/img/emptystar.png" alt=""> <img src="/31.10DZ/img/emptystar.png" alt=""> <img src="/31.10DZ/img/emptystar.png" alt=""> <img src="/31.10DZ/img/emptystar.png" alt="">
-            <p class="skills">JS</p> <img src="/31.10DZ/img/star.png" alt=""> <img src="/31.10DZ/img/star.png" alt=""> <img src="/31.10DZ/img/emptystar.png" alt=""> <img src="/31.10DZ/img/emptystar.png" alt=""> <img src="/31.10DZ/img/emptystar.png" alt="">
-            <p class="skills">English</p> <img src="/31.10DZ/img/star.png" alt=""> <img src="/31.10DZ/img/star.png" alt=""> <img src="/31.10DZ/img/halfstar.png" alt="">  <img src="/31.10DZ/img/emptystar.png" alt=""> <img src="/31.10DZ/img/emptystar.png" alt="">
-            <p class="skills">Social skills</p> <img src="/31.10DZ/img/star.png" alt="">  <img src="/31.10DZ/img/star.png" alt="">  <img src="/31.10DZ/img/star.png" alt=""> <img src="/31.10DZ/img/star.png" alt=""> <img src="/31.10DZ/img/emptystar.png" alt="">
-        </div>
-    </div>
-    <h3 class="caption_my_works">My works</h3>
-    <div class="my_works">
-        <div class="card">
-           <div class="first_block_half"> 
-             <div class="img_block"></div> <p class="name">
-                <p class="name"> <span class="span_name">Назва</span>:</p>
-           </div>
-           <div class="second_block_half">
-            <p class="description"><span class="span_name">Опис роботи:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptas excepturi eligendi? Fugit corporis illum neque cumque</p>
-           </div>
-        </div>
-        <div class="card">
-            <div class="first_block_half">
-              <div class="img_block"></div> <p class="name">
-                 <p class="name"> <span class="span_name">Назва</span>:</p>
+        <div id="about-me" class="center">
+            <div class="first_half">
+                <img src="/31.10DZ/img/userimg.png" alt="" class="center_img">
             </div>
-            <div class="second_block_half">
-             <p class="description"><span class="span_name">Опис роботи:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptas excepturi eligendi? Fugit corporis illum neque cumque</p>
+            <div class="second_half">
+                <h1  class="caption">Maxim Firapontov</h1>
+                <p class="under_caption">but you can call me Max.</p>
+                <p class="center_description">I am a student of the State University of Economics and Technology. At the moment I study C++, 
+                    as well as have knowledge of JavaScript (a little higher than the average level), as well as can not bad layout on ready-made layouts in 
+                    Figma and myself learning to create them. Examples of my works you can see below. 
+                </p>
             </div>
-         </div>
-         <div class="card">
-            <div class="first_block_half">
-              <div class="img_block"></div> <p class="name">
-                 <p class="name"> <span class="span_name">Назва</span>:</p>
-            </div>
-            <div class="second_block_half">
-             <p class="description"><span class="span_name">Опис роботи:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptas excepturi eligendi? Fugit corporis illum neque cumque</p>
-            </div>
-         </div>
-         <div class="card">
-            <div class="first_block_half">
-              <div class="img_block"></div> <p class="name">
-                 <p class="name"> <span class="span_name">Назва</span>:</p>
-            </div>
-            <div class="second_block_half">
-             <p class="description"><span class="span_name">Опис роботи:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptas excepturi eligendi? Fugit corporis illum neque cumque</p>
-            </div>
-         </div>
-         <div class="card">
-            <div class="first_block_half">
-              <div class="img_block"></div> <p class="name">
-                 <p class="name"> <span class="span_name">Назва</span>:</p>
-            </div>
-            <div class="second_block_half">
-             <p class="description"><span class="span_name">Опис роботи:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptas excepturi eligendi? Fugit corporis illum neque cumque</p>
-            </div>
-         </div>
-         <div class="card">
-            <div class="first_block_half">
-              <div class="img_block"></div> <p class="name">
-                 <p class="name"> <span class="span_name">Назва</span>:</p>
-            </div>
-            <div class="second_block_half">
-             <p class="description"><span class="span_name">Опис роботи:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptas excepturi eligendi? Fugit corporis illum neque cumque</p>
-            </div>
-         </div>
-    </div>
-    <div class="footer">
-        <div class="first_footer_half">
-               <p class="footer_caption">Contact</p>
-               <p class="more">Whant to know more or just chat? <br> You are welcome</p>
-               <div class="button"><a href="*" class="button_link">send message</a></div>
-               <div class="networks_block">
-               <a href="*" class="link"> <img src="/31.10DZ/img/mdi_twitter.png" alt="" class="net"></a>
-                <a href="*" class="link"><img src="/31.10DZ/img/ic_baseline-facebook.png" alt="" class="net"></a>
-               <a href="*" class="link"><img src="/31.10DZ/img/mdi_github.png" alt="" class="net"></a>
-                <a href="*" class="link"><img src="/31.10DZ/img/ic_baseline-telegram.png" alt="" class="net"></a>
-               </div>
         </div>
         
-        <div class="second_footer_half">
-            <p class="email_me">Or e-mail me</p>
-            <p class="my_email">mfirapontov@gmail.com</p>
+        <div class="my_skills">
+            <p id="my-skills" class="skill_caption">My skills </p>
+            <div class="about_skills">Social skills 
+                <div class="star_block">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/halfstar.png" alt="">
+                </div>
+            </div>
+            <div class="about_skills">English
+                <div class="star_block">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/halfstar.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/emptystar.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/emptystar.png" alt="">
+                </div>
+            </div>
+            <div class="about_skills">Website layout
+                <div class="star_block">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/halfstar.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/emptystar.png" alt="">
+                </div>
+            </div>
+            <div class="about_skills">С++
+                <div class="star_block">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/emptystar.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/emptystar.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/emptystar.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/emptystar.png" alt="">
+                </div>
+            </div>
+            <div class="about_skills">JS
+                <div class="star_block">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/star.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/emptystar.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/emptystar.png" alt="">
+                    <img class="star_img" src="/31.10DZ/img/emptystar.png" alt="">
+                </div>
+            </div>
+            </div>
         </div>
-    </div>
-</body>
-</html>
+        <p id="my-works" class="works_caption">My Works</p>
+        <div class="my_works">
+            <div class="card">
+                <div class="first_card_half">
+                    <div class="card_img"></div>
+                    <p class="card_caption"><b>Назва роботи</b></p>
+                </div>
+                <div class="second_card_half">
+                    <p class="card_description">Опис: <span>Lorem ipsum dolor sit amet consectetur  laboriosam sapiente! Repellendus sint ullam nisi tenetur.</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="first_card_half">
+                    <div class="card_img"></div>
+                    <p class="card_caption"><b>Назва роботи</b></p>
+                </div>
+                <div class="second_card_half">
+                    <p class="card_description">Опис: <span>Lorem ipsum dolor sit amet consectetur  laboriosam sapiente! Repellendus sint ullam nisi tenetur.</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="first_card_half">
+                    <div class="card_img"></div>
+                    <p class="card_caption"><b>Назва роботи</b></p>
+                </div>
+                <div class="second_card_half">
+                    <p class="card_description">Опис: <span>Lorem ipsum dolor sit amet consectetur  laboriosam sapiente! Repellendus sint ullam nisi tenetur.</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="first_card_half">
+                    <div class="card_img"></div>
+                    <p class="card_caption"><b>Назва роботи</b></p>
+                </div>
+                <div class="second_card_half">
+                    <p class="card_description">Опис: <span>Lorem ipsum dolor sit amet consectetur  laboriosam sapiente! Repellendus sint ullam nisi tenetur.</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="first_card_half">
+                    <div class="card_img"></div>
+                    <p class="card_caption"><b>Назва роботи</b></p>
+                </div>
+                <div class="second_card_half">
+                    <p class="card_description">Опис: <span>Lorem ipsum dolor sit amet consectetur  laboriosam sapiente! Repellendus sint ullam nisi tenetur.</span></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="first_card_half">
+                    <div class="card_img"></div>
+                    <p class="card_caption"><b>Назва роботи</b></p>
+                </div>
+                <div class="second_card_half">
+                    <p class="card_description">Опис: <span>Lorem ipsum dolor sit amet consectetur  laboriosam sapiente! Repellendus sint ullam nisi tenetur.</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="first_half_footer">
+               <div class="block">
+                <p class="social_networks_footer_caption">Contacts</p>
+                <p class="footer_text">Whant to know more or just chat? <br> You are welcome </p>
+                <div class="button"><a href="*" class="button_text">send message</a></div>
+                <div class="social_networks_block">
+                    <a href="*" ><img class="footer_img" src="/31.10DZ/img/facebook.png" alt="*"></a>
+                    <a href="*" ><img class="footer_img" src="/31.10DZ/img/github.png" alt="*"></a>
+                    <a href="*" ><img class="footer_img" src="/31.10DZ/img/facebook.png" alt="*"></a>
+                    <a href="*" ><img class="footer_img" src="/31.10DZ/img/telegram.png" alt="*"></a>
+                </div>
+               </div>
+            </div> 
+            <div class="second_half_footer">
+                <div class="block">
+                    <p id="contacts"class="social_networks_footer_caption">My e-mails</p>
+                    <ul>
+                        <li class="emails">mfirapontob@gmail.com</li>
+                        <li class="emails">firapontov_mv_23249@kneu.dp.ua</li>
+                    </ul>
+                </div>
+            </div> 
+            </div>
+        </div>
+     </div>
+</body> 
+</html>                    
