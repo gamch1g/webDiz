@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.nav_height{
+    height: 150px;
+}
+.carousel-item img {
+    width: 1200px;
+    height: 400px;
+}
+.carousel-offset {
+    margin-top: 100px;
+}
+.tech{
+    width: 75px;
+    height: 75px;
+}
+.navbar-brand{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0px;
+}
+.card-img-top{
+    width: 600px;
+    height: 300px;
+}
+.footer{
+    background: #000;
+    margin-top: 150px;
+}
+.footer_column{
+    width: 255px;
+    height: 100%;
+}
+.footer_container{
+    display: flex;
+    justify-content: center;
+}
+.footer_caption {
+    font-weight: bold;
+    color:aliceblue;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .apple_list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .apple_item {
+    margin-bottom: 5px;
+    color:gray;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+  }
+  
+  .footer_column {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .footer_column:last-child {
+    border-right: none;
+  }
+  
+  .footer_img{
+    margin-top: 10px;
+    width: 90px;
+    height: 25px;
+  }
+  
