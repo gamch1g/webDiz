@@ -1,0 +1,711 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Хедер*/
+
+.container {
+    background-image: url('/28.11/img/banner.png');
+    width: 100%;
+    height: 753px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 10px; 
+    margin-top: -500px;
+
+}
+
+.header_logo {
+    display: flex;
+}
+
+.header_logo_text {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Inter', 'Open Sans', sans-serif; 
+    color: #FFFFFF;
+}
+
+.header_logo_img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.header_item {
+    display: flex;
+}
+
+.item {
+    font-size: 18px;
+    margin: 20px;
+    list-style: none;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Inter', 'Open Sans', sans-serif; 
+    color: #FFFFFF;
+    position: relative;
+    top: -5px;
+}
+
+.item_hover a {
+    text-decoration: none; 
+    color: #FFFFFF; 
+}
+
+.item_hover a:hover {
+    color: #acacac; 
+    transition: 0.3s; 
+}
+.item_hover{
+    cursor: pointer;
+}
+.buger_menu{
+    display: none;
+}
+
+.phone_block {
+    display: flex;
+    align-items: baseline; 
+}
+
+.phone_img {
+    width: 37px;
+    height: 35px;
+    margin-right: 10px; 
+    position: relative;
+    top: -5px;
+}
+
+.phone_text {
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    position: relative;
+    top: -35px; 
+}
+
+.phone_number {
+    font-size: 18px;
+    color: #FFFFFF;
+    position: relative;
+    top: -45px; 
+}
+.button{
+    width: 183px;
+    height: 45px;
+    background-color: #FF630B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 0px;
+}
+.button_text{
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Inter', 'Open Sans', sans-serif; 
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+.button_text:hover{
+    color:#acacac ;
+    transition: 0.3s;
+}
+
+/*Описание хедера*/
+
+.header_description {
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    color: #FF630B;
+    position: absolute;
+    top: 250px; 
+    left: 155px;
+    text-align: center;
+}
+.second_header_caption{
+    font-family: 'Tinos', serif;
+    font-style:normal;
+    font-weight: normal;
+    font-size: 80px;
+    margin-top: -60px;
+    color: #FF630B;
+}
+.header_caption{
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    color: #FF630B;
+}
+.under_caption{
+    font-size: 18px;
+    margin-top: -50px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.description_button{
+    width: 153px;
+    height: 45px;
+    background-color: #FF630B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 260px;
+    left: 165px;
+}
+.description_button:hover{
+    color:#acacac ;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.block_cards{
+    font-size: 50px;
+    position: absolute;
+    top: 650px; 
+    left: 90px;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+}
+.card{
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+    background-color: #FFFFFF;
+    text-align:center;
+    align-items: center;
+    -webkit-box-shadow: -15px 7px 62px -12px rgba(0,0,0,0.48);
+    -moz-box-shadow: -15px 7px 62px -12px rgba(0,0,0,0.48);
+     box-shadow: -15px 7px 62px -12px rgba(0,0,0,0.48);
+}
+.card_img{
+    margin-top: 25px;
+}
+.card_text{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+span{
+    color: #FF630B;
+}
+.card_description {
+    font-size: 22px;
+    font-weight: bold;
+    color: #656363;
+    font-family: 'Open Sans', sans-serif;
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
+
+/*Центральна частина */
+
+.our_history{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 400px;
+    width: 95%;
+}
+.first_half{
+    width: 50%;
+    height: 100%;
+    margin-top: -120px;
+}
+.second_half{
+    width: 50%;
+    height: 100%;
+    
+}
+.center_caption{
+    font-size: 54px;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.center_description{
+    font-size: 21px;
+    max-width: 80%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #656363;   
+}
+.first_center_img{
+    position: relative;
+    top: 180px;
+    left: 50px;
+}
+.second_center_img{
+    position: relative;
+    top: 5px;
+    left: -58px;
+}
+.third_center_img{
+    position: relative;
+    top: -106px;
+    left: 352px;
+}
+.third_button{
+    width: 183px;
+    height: 45px;
+    background-color: #FF630B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 0px;
+    display: none;
+}
+
+/*Нашi страви*/
+
+.dishes_caption{
+    font-size: 54px;
+    margin-top: 150px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.our_dishes{
+    display: flex;
+}
+.dishes_first_half{
+    width: 45%;
+    height: 600px;
+    text-align-last: right;
+}
+.dishes_second_half{
+    width: 55%;
+    height: 100%;
+    text-align: center;
+   
+}
+.dishes_second_half .dishes_img{
+    display: block; 
+    margin-bottom: 28px;
+    margin-left: 20px;
+}
+.dishes_inner{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+.dishes_description{
+    margin-top: -5px;
+    font-size: 22px;
+    font-family: 'Inter', 'Open Sans', sans-serif; 
+    margin-left: 25px;
+}
+
+/*Другий банер*/
+
+.second_banner {
+    background-image: url('/28.11/img/backg.png');
+    width: 100%;
+    height: 835px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.circle_menu {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+  }
+
+.second_banner_caption {
+    font-size: 54px;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 62; 
+}
+
+.second_card_block {
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 100px;
+}
+.first_card{
+    width: 338px;
+    height: 484px;
+    background-color: #D9D9D9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; 
+}
+.second_card {
+    width: 338px;
+    height: 484px;
+    background-color: #D9D9D9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; 
+}
+.third_card{
+    width: 338px;
+    height: 484px;
+    background-color: #D9D9D9;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; 
+}
+
+.img_card {
+    display: block; 
+    margin-top: 25px;
+}
+
+.second_card_description {
+    font-size: 26px;
+    color: #000000;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.under_description {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.second_card_button {
+    width: 183px;
+    height: 52px;
+    background-color: #FF630B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*Третiй банер*/
+
+.third_banner{
+    background-image: url('/28.11/img/blackbg2.png');
+    margin-top: 100px;
+    width: 100%;
+    height: 357px;
+    display: flex;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.banner_first_half{
+    width: 50%;
+    height: 100%;
+}
+.banner_second_half{
+    width: 50%;
+    height: 100%;
+}
+.third_banner_caption{
+    font-size: 52px;
+    color:#FF630B;
+    font-family: 'Tinos', serif;
+    position: relative;
+    top: 40px;
+    left: 130px;
+    font-weight: 100;
+}
+.third_banner_text{
+    color:#FFFFFF;
+    font-size: 20px;
+    font-family: 'Tinos', serif;
+    font-weight: 100;
+    margin-left: 130px;
+}
+.banner_second_half{
+    width: 183px;
+    height: 45px;
+    background-color: #FF630B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 160px;
+    left: 400px;
+}
+
+/*Футер*/
+
+.footer{
+    background-image: url('/28.11/img/footer.png') ;
+    width: 100%;
+    height: 437px;
+    margin-top: 250px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.footer{
+    display: flex;
+}
+.footer_lits{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.list_name{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.img_drop_menu{
+    display: none;
+}
+.second_img_drop_menu{
+    display: none;
+}
+.footer_item{
+    font-size: 18px;
+    color:#656363;
+    list-style: none;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    width: 234px;
+    cursor:pointer ;
+}
+.first_footer_block{
+    width: 25%;
+    height: 100%;
+}
+.second_footer_block{
+    width: 35%;
+    height: 100%;
+}
+.third_footer_block{
+    width: 40%;
+    height: 100%;
+}
+.footer_caption{
+    font-size: 20px;
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.social_networks{
+    width: 250px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* CSS для мобільних пристроїв */
+@media (max-width: 767px) and (max-height: 628px) {
+
+    /*Хедер*/
+
+.header{
+  display: flex;
+  justify-content: space-around; 
+}
+.item{
+  display: none;
+}
+.buger_menu{
+  display: flex;
+  width: 58px;
+  height: 41px; 
+}
+.header_logo{
+margin-right: 300px;   
+}
+.header_logo_text{
+  font-size: 25px;
+  margin-top: 25px;
+  font-weight: bold;
+
+}
+.description_button{
+  margin-top: 100px;
+}
+  /*Центральна частина*/
+
+/*Карти*/
+
+.block_cards{
+  display: block;
+ margin-left: 75px;
+}
+
+/*Наша Iсторiя*/
+
+.first_center_img{
+  display: none;
+}
+.second_center_img{
+  display: none;
+}
+.third_center_img{
+  display: none;
+}
+.second_half{
+    display: none;
+    width: 0px;
+    height: 0px;
+}
+.center_caption{
+  width: 296px;
+  margin-left: 135px;
+}
+.first_half{
+  width: 566px;
+ margin-left: 100px;
+  margin-top: 800px;
+ 
+}
+.our_history{
+    margin-left: 0px;
+}
+
+/*Нашi страви*/
+.our_dishes{
+    display: block;
+    width: 100%;
+}
+.dishes_caption{
+    margin-left: 234px;
+    width: 296px;
+    margin-top: 200px;
+  }
+  .dishes_first_half{
+    width: 100%;  
+  }
+  .pizza_img{
+    width: 100%;
+  }
+  .dishes_second_half{
+    margin-top: 235px;
+    margin-left: 75px;
+  }
+  .dishes_inner{
+    width: 600px;
+  }
+ 
+
+/*Другий банер*/
+
+.second_banner{
+    margin-top: 200px;
+}
+.first_card{
+    display: none;
+}
+.third_card{
+    display: none;
+}
+.third_banner{
+    margin-top: 200px;
+}
+.circle_menu{
+    display: block;
+    margin-bottom: 75px;
+}
+
+/*Третiй банер*/
+
+.third_banner{
+    display: block;
+}
+
+.third_banner_caption{
+    font-size: 40px;
+    width: 541px;
+}
+.third_banner_text{
+    font-size: 24px;
+    width: 428px;
+    margin-top: 50px;
+}
+.third_button{
+    display: block;
+    margin-left: 240px;
+
+}
+.third_button_text{
+    font-size: 15px;
+    position: relative;
+    top: 12px;
+    left: 56px;
+    font-style: italic;
+    font-family: 'Inter', 'Open Sans', sans-serif; 
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+.third_button_text:hover{
+    color:#acacac ;
+    transition: 0.3s;
+} 
+ 
+.banner_second_half{
+    display: none;
+}
+
+/*Футер*/
+
+.footer_item{
+display: none;
+}
+.list_name{
+    font-size: 15px;
+    width: 112px;
+}
+.footer_caption{
+    width: 207px;
+    font-size: 15px;
+}
+.social_networks{
+    margin-left: -17px;
+}
+.img_drop_menu{
+    display: block;
+    position: relative;
+    top: -33px;
+    left: 115px;
+}
+.second_img_drop_menu{
+    position: relative;
+    top: -37px;
+    left: 91px;
+}
+}
+ 
+
+
+
